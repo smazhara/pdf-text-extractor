@@ -60,9 +60,7 @@ __END__
   %body
     %form#pdf
       %label(for="url") url
-      %input#url(value='http://localhost:4567/jquery.pdf')
+      %input#url
     %fieldset
       %legend Extracted text
       %pre#text
-
-
